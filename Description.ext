@@ -1,13 +1,13 @@
-#include "VAS\menu.hpp"
+//#include "VAS\menu.hpp"
 
-class CfgFunctions
+/*class CfgFunctions
 {
 	#include "VAS\cfgfunctions.hpp"
-};
+};*/
 
-OnLoadName = "Centro de instruções H.C.";
-author = "Cap.Campello edit. Rover047";
-onLoadMission = "Missão criada para a aplicação de instruções.";
+OnLoadName = "Centro de Comando H.C.";
+author = "Rover047";
+onLoadMission = "Missão criada para a aplicação de Eventos.";
 loadScreen = "imagem\pelotao.jpg";
 overviewPicture = "imagem\pelotao.jpg";
 
@@ -19,11 +19,14 @@ class Header
 };
 
 Respawn = BASE;
-RespawnDelay = 4;
-disabledAI = true;
+RespawnDelay = 20;
+respawnTemplates[] = {"MenuInventory", "MenuPosition", "Tickets","Spectator"};
+reviveForceRespawnDelay = 5;
+reviveBleedOutDelay = 180;
+disabledAI = false;
 passwordAdmin = "HCadmin1234";
 
 //other
 enableDebugConsole = 1;
 #include "infiSTAR_AdminMenu.hpp"
-
+#include "Loadout.cpp"

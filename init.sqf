@@ -1,3 +1,15 @@
+//ticket definition
+[west,30] call BIS_fnc_respawnTickets;
+
+
+//inventory definition
+[missionNamespace,["WEST1",1,1]] call BIS_fnc_addRespawnInventory;
+[missionNamespace,["WEST2",1,2]] call BIS_fnc_addRespawnInventory;
+[missionNamespace,["WEST3",1,2]] call BIS_fnc_addRespawnInventory;
+[missionNamespace,["WEST4",1,2]] call BIS_fnc_addRespawnInventory;
+
+
+
 BRIEF_setObjectTextureGlobal = {(_this select 0) setObjectTextureGlobal (_this select 1)}; 
 MAC_fnc_switchMove = {
     private["_object","_anim"];
@@ -8,3 +20,4 @@ MAC_fnc_switchMove = {
     
 }
 ;nopop=true;
+
