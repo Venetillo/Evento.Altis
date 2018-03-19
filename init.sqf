@@ -1,5 +1,5 @@
 //ticket definition
-[west,30] call BIS_fnc_respawnTickets;
+[west,2] call BIS_fnc_respawnTickets;
 
 
 //inventory definition
