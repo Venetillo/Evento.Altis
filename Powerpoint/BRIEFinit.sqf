@@ -3,7 +3,7 @@
 _BRIEFinit = _this select 0;
 
 //change "slideArray" with location and name of picture jpg or paa files. You can add how many picture.
-slideArray = ["imagem\base.jpg","imagem\m1.jpg","imagem\m2.jpg","imagem\m3.jpg","imagem\m4.jpg","imagem\m5.jpg","imagem\m6.jpg","imagem\m7.jpg","imagem\m8.jpg","imagem\m9.jpg","imagem\m10.jpg"]; 
+slideArray = ["imagem\base.jpg","imagem\m1.jpg","imagem\m2.jpg","imagem\m3.jpg","imagem\m4.jpg","imagem\m5.jpg","imagem\m6.jpg","imagem\m7.jpg","imagem\m8.jpg","imagem\m9.jpg"]; 
 slideIndex = 0;
 slides = count slideArray;
 
